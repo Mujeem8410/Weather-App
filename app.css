@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+  font-family: 'Oswald';
+
+}
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  text-decoration: underline;
+  margin-top:20px;
+}
+
+body {
+
+  background-color: black;
+}
+
+input {
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 8px;
+
+  outline: none;
+  border-radius: 30px;
+  flex: 1;
+  font-family: 'Oswald';
+  border: 1px solid black;
+  border: none;
+  padding: 5px;
+}
+
+.upper {
+  height: 70px;
+  width: 250px;
+  background-color: rgb(173, 216, 230);
+  margin: 20px auto 0px;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid black;
+
+
+}
+
+button {
+  float: right;
+  width: 32px;
+  height: 32px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-right: 20px;
+
+
+}
+
+.img {
+  width: 10px;
+
+}
+
+.serachinput::placeholder {
+  margin-left: 1vw;
+}
+
+.down {
+  height: 380px;
+  width: 250px;
+  background-color: rgb(173, 216, 230);
+  margin: 0px auto 0px;
+
+  border: 1px solid black;
+
+
+
+
+}
+
+.weather_img {
+  height: 100px;
+  margin-top: 0px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+
+}
+
+.weather_img img1 {
+  height: 100px;
+
+
+}
+
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+
+}
+
+.cityname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+
+}
+
+.humidty_wind {
+  height: 148px;
+  /* border: 1px solid red; */
+
+}
+
+.humidty {
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
+  float: left;
+
+  
+
+}
+
+.humdata {
+  margin-left: 65px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  margin-top: 40px;
+
+}
+
+.wind {
+  height: 40px;
+  margin-right: 78px;
+  margin-top: -25px;
+  float: right;
+
+  
+
+
+}
+
+.winddata {
+  margin-left: 180px;
+  margin-top: -25px;
+  /* font-family: "Quicksand", sans-serif; */
+  font-optical-sizing: auto;
+
+
+}
+
+.unit {
+  margin-top:-18px;
+  margin-left: 180px;
+}
+.error{
+ margin: 8px 23px;
+ font-family: 'Oswald';
+ font-optical-sizing: auto;
+
+}
