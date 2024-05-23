@@ -10,7 +10,7 @@ async function chekweather(city) {
 
     const response = await fetch(apiUrl + city + `&appid=${apikey}`);
     var data = await response.json();
-     const kk=data.weather[0].main;
+    const kk = data.weather[0].main;
     if (response.status == 404) {
         document.querySelector(".down").style.display = "none";
         document.querySelector(".error").style.display = "block";
@@ -24,27 +24,27 @@ async function chekweather(city) {
         document.querySelector(".winddata").innerHTML = data.wind.speed + "km/h";
         document.querySelector(".humdata").innerHTML = data.main.humidity + "%";
         if (kk == "Clear") {
-            img1.src = "images/clear.png";
+            img1.src = "clear.png";
 
         }
         else if (kk == "Clouds") {
-            img1.src = "images/clouds.png";
+            img1.src = "clouds.png";
 
         }
-        else if (kk== "Drizzle") {
-            img1.src = "images/drizzle.png";
+        else if (kk == "Drizzle") {
+            img1.src = "drizzle.png";
 
         }
         else if (kk == "Moisture") {
-            img1.src = "images/mist.png";
+            img1.src = "mist.png";
 
         }
         else if (kk == "Snow") {
-            img1.src = "images/snow.png";
+            img1.src = "snow.png";
 
         }
-        else{
-            img1.src="ll.png"
+        else {
+            img1.src = "ll.png"
         }
 
     }
