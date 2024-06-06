@@ -14,3 +14,6 @@ HTML
 CSS
 JavaScript
 OpenWeather API (or any other weather API you are using)
+ 
+
+ # Made by  Mujeem saifi
